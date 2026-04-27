@@ -1,0 +1,40 @@
+{
+  "system_info": {
+    "project_name": "self-moderation-system",
+    "moderator": "Shimamura Azusa",
+    "policy": "Standard_Regulation_710",
+    "security_level": "CRITICAL"
+  },
+  "assets": [
+    { "id": "ASSET-LOG-001", "category": "personal_history", "folder_path": "assets/Fukami_Anko/", "label": "未認証個体:深海鮟子（ふかみあんこ）" },
+    { "id": "ASSET-LOG-002", "category": "unauthorized_entity", "folder_path": "assets/Fukami_Anko/", "label": "未認証個体:深海鮟子（ふかみあんこ）" },
+    { "id": "ASSET-LOG-003", "category": "approved_data", "folder_path": "assets/real/", "label": "現実の断片" },
+    { "id": "ASSET-LOG-004", "category": "other", "folder_path": "assets/other/", "label": "分類不能:破損データブロック_01" },
+    { "id": "ASSET-LOG-005", "category": "unauthorized_entity", "folder_path": "assets/Fukami_Anko/", "label": "未認証個体:深海鮟子（ふかみあんこ）" },
+    { "id": "ASSET-LOG-006", "category": "approved_data", "folder_path": "assets/real/", "label": "現実の断片" },
+    { "id": "ASSET-LOG-007", "category": "other", "folder_path": "assets/other/", "label": "分類不能:システムログ残渣" },
+    { "id": "ASSET-LOG-008", "category": "approved_data", "folder_path": "assets/real/", "label": "現実の断片" },
+    { "id": "ASSET-LOG-009", "category": "unauthorized_entity", "folder_path": "assets/Fukami_Anko/", "label": "未認証個体:深海鮟子（ふかみあんこ）" },
+    { "id": "ASSET-LOG-010", "category": "other", "folder_path": "assets/other/", "label": "分類不能:外部干渉の痕跡" },
+    { "id": "ASSET-LOG-011", "category": "unauthorized_entity", "folder_path": "assets/Fukami_Anko/", "label": "未認証個体:深海鮟子（ふかみあんこ）" },
+    { "id": "ASSET-LOG-012", "category": "approved_data", "folder_path": "assets/real/", "label": "現実の断片" },
+    { "id": "ASSET-LOG-013", "category": "unauthorized_entity", "folder_path": "assets/Fukami_Anko/", "label": "未認証個体:深海鮟子（ふかみあんこ）" },
+    { "id": "ASSET-LOG-014", "category": "approved_data", "folder_path": "assets/real/", "label": "現実の断片" },
+    { "id": "ASSET-LOG-015", "category": "other", "folder_path": "assets/other/", "label": "分類不能:暗号化断片_B" },
+    { "id": "ASSET-LOG-016", "category": "approved_data", "folder_path": "assets/real/", "label": "現実の断片" },
+    { "id": "ASSET-LOG-017", "category": "unauthorized_entity", "folder_path": "assets/Fukami_Anko/", "label": "未認証個体:深海鮟子（ふかみあんこ）" },
+    { "id": "ASSET-LOG-018", "category": "approved_data", "folder_path": "assets/real/", "label": "現実の断片" },
+    { "id": "ASSET-LOG-019", "category": "unauthorized_entity", "folder_path": "assets/Fukami_Anko/", "label": "未認証個体:深海鮟子（ふかみあんこ）" },
+    { "id": "ASSET-LOG-021", "category": "other", "folder_path": "assets/other/", "label": "分類不能:未知のプロトコル" },
+    { "id": "ASSET-LOG-022", "category": "approved_data", "folder_path": "assets/real/", "label": "現実の断片" },
+    { "id": "ASSET-LOG-023", "category": "unauthorized_entity", "folder_path": "assets/Fukami_Anko/", "label": "未認証個体:深海鮟子（ふかみあんこ）" },
+    { "id": "ASSET-LOG-024", "category": "personal_history", "folder_path": "assets/other/", "label": "過去の記録:バックアップ断片" },
+    { "id": "ASSET-LOG-025", "category": "other", "folder_path": "assets/other/", "label": "分類不能:メモリリークの痕跡" },
+    { "id": "ASSET-LOG-026", "category": "approved_data", "folder_path": "assets/real/", "label": "現実の断片" },
+    { "id": "ASSET-LOG-027", "category": "unauthorized_entity", "folder_path": "assets/Fukami_Anko/", "label": "未認証個体:深海鮟子（ふかみあんこ）" },
+    { "id": "ASSET-LOG-028", "category": "other", "folder_path": "assets/other/", "label": "分類不能:ゴーストデータの検知" },
+    { "id": "ASSET-LOG-029", "category": "approved_data", "folder_path": "assets/real/", "label": "現実の断片" },
+    { "id": "ASSET-LOG-030", "category": "personal_history", "folder_path": "assets/self/", "label": "最終検閲対象：ありがとう,検閲済/07/10生,Webデザイナー(訓練生)" }
+  ]
+}
+

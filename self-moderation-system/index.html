@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Moderation System v2.7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+    <div class="wrapper" id="mainWrapper">
+        <header class="header">
+            <span class="step-label">SYSTEM_STATUS: ONLINE</span>
+            <h1>私を規制する</h1>
+        </header>
+
+        <main class="main-content">
+            <div class="moderation-card" id="targetCard">
+                <div class="meta-data" id="metaDisplay">
+                    <p>VideoID : <span id="val-id">0000000000001</span></p>
+                    <p>UserName : @shimamura</p>
+                    <p>UserID : 19990710</p>
+                    <p>Timestamp : <span id="val-date">2020/04/05 18:37:02</span></p>
+                    <p>Report : 0</p>
+                    <p>Status : <span id="val-status">PENDING</span></p>
+                </div>
+
+                <div class="content-view" id="contentView">
+                    <img src="" id="contentImg" style="display:none; max-width:100%; max-height:100%;">
+                    <div id="contentPlaceholder">LOADING DATA...</div>
+                </div>
+
+                <div class="policy-list">
+                    <h3>規制理由となるポリシー名</h3>
+                    <div class="policy-group">
+                        <label class="policy-item"><input type="checkbox" onchange="togglePolicy(this)"> 性的な内容</label>
+                        <label class="policy-item"><input type="checkbox" onchange="togglePolicy(this)"> アルコールの描写</label>
+                        <label class="policy-item highlight"><input type="checkbox" onchange="togglePolicy(this)"> 存在が許されない過去</label>
+                        <label class="policy-item"><input type="checkbox" onchange="togglePolicy(this)"> 生々しい描写</label>
+                        <label class="policy-item"><input type="checkbox" onchange="togglePolicy(this)"> 危険な行動</label>
+                        <label class="policy-item"><input type="checkbox" onchange="togglePolicy(this)"> 詐欺・欺瞞</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-group">
+                <button class="btn btn-approve" onclick="judge('approve')">Approve</button>
+                <button class="btn btn-ban" onclick="judge('ban')">Ban</button>
+            </div>
+            
+            <div class="submit-area">
+                <button class="btn btn-submit" onclick="submit()">Submit Decision</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
